@@ -5,12 +5,26 @@ This is a simple web application built with Flask that allows you to upload text
 # Project Structure
 project/
 │
+
+
 ├── main.py             # Contains the TextSummarizer class with spaCy logic
+
+
 ├── app.py              # The main Flask application
+
+
 ├── templates/
+
+
 │   └── index.html      # Frontend HTML for the web interface
+
+
 ├── static/
+
+
 │   └── styles.css      # CSS for styling the web interface
+
+
 └── summaries/          # Folder where generated summaries will be saved (created automatically)
 
 **Setup and Running Instructions**
