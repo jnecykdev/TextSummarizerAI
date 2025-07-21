@@ -28,6 +28,7 @@ project/
 └── summaries/          # Folder where generated summaries will be saved (created automatically)
 
 **Setup and Running Instructions**
+
 Follow these steps to get the application up and running on your local machine.
 
 Prerequisites
@@ -39,6 +40,7 @@ venv: Python's module for creating virtual environments. It also comes with Pyth
 
 **Step-by-Step Guide**
 **Navigate to the Project Directory**
+
 Open your terminal or command prompt and navigate to the project/ directory where your app.py, main.py, templates/, and static/ folders are located.
 
 cd path/to/your/project
@@ -46,6 +48,7 @@ cd path/to/your/project
 (Replace path/to/your/project with the actual path to your project folder.)
 
 **Create a Virtual Environment**
+
 It's highly recommended to use a virtual environment to manage project dependencies. This isolates your project's packages from your system-wide Python installation.
 
 python3 -m venv venv
@@ -67,6 +70,7 @@ On Windows (PowerShell):
 You should see (venv) at the beginning of your terminal prompt, indicating that the virtual environment is active.
 
 **Install Required Python Packages**
+
 First, let's create a requirements.txt file with the necessary packages. In your project/ directory, create a new file named requirements.txt and add the following content:
 
 Flask
@@ -77,7 +81,7 @@ Now, install these packages using pip:
 
 pip install -r requirements.txt
 
-Download the spaCy Language Model
+**Download the spaCy Language Model**
 Since the application uses spaCy, you need to download the English language model.
 
 python3 -m spacy download en_core_web_sm
